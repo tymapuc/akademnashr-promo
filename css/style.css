@@ -5,6 +5,11 @@ body {
     letter-spacing: 0.5px;
 }
 
+*:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
+
 /*SITE-HEADER*/
 .site-header {
     display: flex;
@@ -197,7 +202,6 @@ body {
     opacity: 0.6;
 }
 
-
 .site-footer-divider {
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
@@ -221,6 +225,6 @@ body {
     color: #ff7500;
 }
 
-.site-footer-links a:focus {
+.site-footer-links a:active {
     opacity: 0.6;
 }
