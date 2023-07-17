@@ -17,7 +17,7 @@ body {
 }
 
 /* CONTANIER */
-.contanier {
+.container {
     width: 100%;
     max-width: 1140px;
     padding-left: 20px;
@@ -128,7 +128,7 @@ body {
     color: #fff;
 }
 
-.hero-contanier {
+.hero-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
